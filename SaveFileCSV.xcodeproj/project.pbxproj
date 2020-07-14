@@ -16,6 +16,7 @@
 		802C099324BDB30500012A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802C099124BDB30500012A35 /* LaunchScreen.storyboard */; };
 		802C099E24BDB30500012A35 /* SaveFileCSVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C099D24BDB30500012A35 /* SaveFileCSVTests.swift */; };
 		802C09A924BDB30600012A35 /* SaveFileCSVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C09A824BDB30600012A35 /* SaveFileCSVUITests.swift */; };
+		802C09B724BDB77700012A35 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C09B624BDB77600012A35 /* TaskModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		802C09A424BDB30600012A35 /* SaveFileCSVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaveFileCSVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		802C09A824BDB30600012A35 /* SaveFileCSVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveFileCSVUITests.swift; sourceTree = "<group>"; };
 		802C09AA24BDB30600012A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802C09B624BDB77600012A35 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				802C098324BDB30000012A35 /* AppDelegate.swift */,
+				802C09B624BDB77600012A35 /* TaskModel.swift */,
 				802C098524BDB30000012A35 /* SceneDelegate.swift */,
 				802C098724BDB30000012A35 /* ViewController.swift */,
 				802C098924BDB30000012A35 /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				802C098824BDB30000012A35 /* ViewController.swift in Sources */,
 				802C098424BDB30000012A35 /* AppDelegate.swift in Sources */,
+				802C09B724BDB77700012A35 /* TaskModel.swift in Sources */,
 				802C098624BDB30000012A35 /* SceneDelegate.swift in Sources */,
 				802C098E24BDB30100012A35 /* SaveFileCSV.xcdatamodeld in Sources */,
 			);
